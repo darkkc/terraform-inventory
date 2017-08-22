@@ -142,6 +142,7 @@ func (r Resource) Tags() map[string]string {
 				t[vv] = ""
 			}
 		}
+	}
 	return t
 }
 
