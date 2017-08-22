@@ -133,7 +133,6 @@ func (r Resource) Tags() map[string]string {
 				t[vv] = ""
 			}
 		}
-	}
 	case "openstack_compute_instance_v2":
 		for k, v := range r.Attributes() {
 			parts := strings.SplitN(k, ".", 2)
